@@ -18,9 +18,12 @@
   header, footer {
     background-color: #333;
     text-align: center;
-    padding: 1rem;
   }
-  
+
+  .header-content{
+    padding: 2rem;
+    text-align: left;
+  }
   nav {
     background-color: black;
     padding: 1rem;
@@ -41,9 +44,8 @@
   main {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    gap: 1rem;
     background-color: #ccc;
-    padding: 1rem;
+    
   }
   
   .main-content {
