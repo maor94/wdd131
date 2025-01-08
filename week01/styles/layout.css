@@ -1,0 +1,64 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General Styles */
+  body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  header, footer {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  nav {
+    background-color: black;
+    padding: 1rem;
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0.5rem 0;
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+    background-color: #ccc;
+    padding: 1rem;
+  }
+  
+  .main-content {
+    background-color: #d3d3d3;
+    padding: 1rem;
+    color: black;
+  }
+  
+  .aside-content {
+    background-color: white;
+    padding: 1rem;
+    color: black;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 2rem;
+  }
